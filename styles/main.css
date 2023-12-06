@@ -1,8 +1,86 @@
-u1 {
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 955px;
+}
+
+.main-header {
+    display: flex;
+    /* outline: 1px dotted red; */
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px
+    
+}
+
+/* .site-header {
+    margin-left:
+} */
+
+.menu-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.harvested {
+    text-align: center;
+    
+}
+
+.menu-items {
+    justify-content: space-around;
+}
+
+.menu-items li {
+    margin: 12px;
+}
+
+.image-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column-left {
+    float: left;
+    width: 75%;
+    padding: 0px 20px 0px 40 px
+}
+
+.column-left li {
     list-style: none;
 }
 
-li {
-        display: inline-block;
-        margin-right: 10px;
+.column-right {
+    float:right;
+    width: 25%;
+    padding: 0px 40px 0px 40px
+}
+
+.fish {
+    border-top:5px solid black;
+    padding: 40px 0px 20px 0px;
+    margin-left: 40px;
+    margin-right: 20px
+
+}
+
+.fish ul {
+    padding: 0px
+}
+
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-footer {
+    clear: both;
 }
