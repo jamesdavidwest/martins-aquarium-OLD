@@ -73,8 +73,6 @@
     padding: 0px
 }
 
-
-
 .clearfix::after {
     content: "";
     display: table;
@@ -83,4 +81,46 @@
 
 .main-footer {
     clear: both;
+    align-items: center;
+}
+
+.site-footer {
+    margin: 5px;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: smaller;
+   
+}
+
+.footer-copy {
+    margin: 5px 5px 0px 5px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.footer-list li {
+    margin: 5px;
+}
+
+.locations li {
+    list-style: none;
+    ;
+}
+
+.location-region {
+    padding: 1em 0 1em 0;
+    font-weight: bold;
+}
+
+.locations {
+    padding: 0px;
+    
 }
