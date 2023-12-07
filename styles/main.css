@@ -129,3 +129,12 @@
     padding: 0px;
     
 }
+
+.fish__image {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.fish-card {
+    padding-bottom: 40px;
+}

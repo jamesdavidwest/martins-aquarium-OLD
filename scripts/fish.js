@@ -1,4 +1,8 @@
+// new ImageData(width, height)
 
+// function imageResize(database.fish.image) {
+
+// }
 
 const database = {
     fish: [
@@ -27,6 +31,6 @@ const database = {
     ]
 }
 
-export const getFish= () => {
+export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
 }
