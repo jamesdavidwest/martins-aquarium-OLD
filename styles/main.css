@@ -82,11 +82,16 @@
 .main-footer {
     clear: both;
     align-items: center;
+    padding-top: 40px;
+
+    
 }
 
 .site-footer {
     margin: 5px;
     text-align: center;
+    padding-top: 1em;
+    border-top: 5px solid black;
 }
 
 .footer-list {
